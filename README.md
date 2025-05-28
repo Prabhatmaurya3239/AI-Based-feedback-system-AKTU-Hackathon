@@ -20,6 +20,7 @@ A Django-based web application where students can submit feedback for college ev
 
 ## 🧱 Project Structure
 
+```bash
 AI_Based_feedback_system_AKTU_Hackathon/
 ├── feedback/ # Core app logic
 │ ├── templates/ # HTML templates
@@ -34,7 +35,7 @@ AI_Based_feedback_system_AKTU_Hackathon/
 ├── manage.py # Django CLI
 ├── requirements.txt # Python dependencies
 └── README.md # You're reading it!
-
+'''
 ---
 
 ## 💻 How to Run the Project Locally
