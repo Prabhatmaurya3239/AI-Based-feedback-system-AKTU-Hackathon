@@ -66,22 +66,8 @@
   </div>
 </div>
 {% endblock %}
+{% load static %}
 
-{% block scrips%}
-<script>
-   (() => {
-    'use strict';
-    const forms = document.querySelectorAll('.needs-validation');
-    Array.from(forms).forEach(form => {
-      form.addEventListener('submit', event => {
-        if (!form.checkValidity()) {
-          event.preventDefault();
-          event.stopPropagation();
-        }
-        form.classList.add('was-validated');
-      }, false);
-    });
-  })();
-</script>
-  
-{% endblock%}
+<script src="{% static 'js/submit_feedback.js' %}"></script>
+
+
